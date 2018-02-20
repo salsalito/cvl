@@ -1,0 +1,10 @@
+16-02-2018 16:37:22 INFO  - FrameworkServlet 'dispatcher': initialization started
+16-02-2018 16:37:22 INFO  - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Feb 16 16:37:22 CET 2018]; root of context hierarchy
+16-02-2018 16:37:22 INFO  - Registering annotated classes: [class com.meuge.cvl.config.WebConfig]
+16-02-2018 16:37:22 INFO  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+16-02-2018 16:37:22 INFO  - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.meuge.cvl.controller.FormulaireController.registration()
+16-02-2018 16:37:22 INFO  - Mapped "{[/saveUserMan],methods=[POST]}" onto public java.lang.String com.meuge.cvl.controller.FormulaireController.saveUser(com.meuge.cvl.model.Formulaire,org.springframework.ui.Model)
+16-02-2018 16:37:22 INFO  - Mapped URL path [/resources/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16-02-2018 16:37:22 INFO  - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Feb 16 16:37:22 CET 2018]; root of context hierarchy
+16-02-2018 16:37:22 INFO  - FrameworkServlet 'dispatcher': initialization completed in 534 ms
+16-02-2018 17:05:18 INFO  - Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Fri Feb 16 16:37:22 CET 2018]; root of context hierarchy
