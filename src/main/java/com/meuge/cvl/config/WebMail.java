@@ -21,6 +21,7 @@ public class WebMail {
         {
             MimeMessage msg = new MimeMessage(session);
             //set message headers
+
             msg.addHeader("Content-type", "text/HTML; charset=UTF-8");
             msg.addHeader("format", "flowed");
             msg.addHeader("Content-Transfer-Encoding", "8bit");
@@ -31,8 +32,8 @@ public class WebMail {
 
             msg.setSubject(subject, "UTF-8");
 
-            msg.setText(body, "UTF-8");
-
+            //msg.setText(body, "UTF-8");
+            msg.setContent(body, "text/html; charset=utf-8");
             msg.setSentDate(new Date());
 
             msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(toEmail, false));
@@ -71,7 +72,7 @@ public class WebMail {
             props.put("mail.smtp.auth", props.getProperty("mail.smtp.auth")); //enable authentication
             props.put("mail.smtp.starttls.enable", props.getProperty("mail.smtp.starttls.enable")); //enable STARTTLS
             props.put("subject",props.getProperty("subject"));
-            props.put("body",props.getProperty("body"));
+            props.put("htmlbody",props.getProperty("htmlbody"));
         }
 
         //create Authenticator object to pass in Session.getInstance argument
@@ -79,8 +80,9 @@ public class WebMail {
 
         if (session != null && EmailValidator.getInstance().isValid(props.getProperty("sentTO")))
             sendEmail(session, props.getProperty("sentTO"),replaceAll(args,props.getProperty("subject")),
-                    replaceAll(args,props.getProperty("body")), props.getProperty("sentFrom"),
-                    props.getProperty("replyTo"), toCC, toBCC);
+                    replaceAll(args,props.getProperty("htmlbody")), props.getProperty("sentFrom"),
+                    args.get("%Email%"), toCC, toBCC);
+                  //  props.getProperty("replyTo"), toCC, toBCC);
     }
 
     private static String replaceAll(Hashtable<String,String> args, String myarg)

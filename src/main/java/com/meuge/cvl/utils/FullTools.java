@@ -18,6 +18,9 @@ import java.util.Properties;
 
 public class FullTools {
 
+    public  FullTools(){
+        setLogFile();
+    }
     final static Logger logger = Logger.getLogger(FullTools.class);
 
     public static String variables(String variableToCheck)
@@ -29,7 +32,36 @@ public class FullTools {
     {
         return getMessage(variableToCheck, emptyOnError);
     }
+    static void setLogFile() {
+        Properties isIn = getFileProperties("application.properties");
+        Resource resource = new ClassPathResource("application.properties");
+        try {
+            File dossierlog = resource.getFile();
+            if (isIn != null && isIn.getProperty("log4j.repertoirelinux")!= null)
+                dossierlog = isIn != null && isIn.getProperty("log4j.repertoirelinux") != null ?
+                        new File(isIn.getProperty("log4j.repertoirelinux")) : dossierlog;
+            if (!(dossierlog.exists() && dossierlog.isDirectory()) && isIn.getProperty("log4j.repertoirelinux")!= null)
+            {
+                try {
+                    dossierlog = isIn != null && isIn.getProperty("log4j.repertoirewin") != null ?
+                            new File(isIn.getProperty("log4j.repertoirewin")) : dossierlog;
+                    if ((dossierlog.exists() && dossierlog.isDirectory()) && isIn.getProperty("log4j.repertoirewin")!= null)
+                        System.setProperty("logfile.name",isIn.getProperty("log4j.repertoirewin")+"/meuge.log");
+                }
+                catch (   NullPointerException e2) {
+                    // on ne peut rien faire car pas de log
+                }
+            }
+            else
+            {
+                System.setProperty("logfile.name",isIn.getProperty("log4j.repertoirelinux")+"/meuge.log");
+            }
 
+        } catch (IOException  | NullPointerException e1) {
+            logger.error("Fichier variabilisé en erreur");
+        }
+
+    }
     public static String getMessage(String message, boolean emptyOnError) {
 
         String retour = null;
@@ -41,6 +73,28 @@ public class FullTools {
             if (isIn != null && isIn.getProperty("variables")!= null)
                 fileToLoad = isIn != null && isIn.getProperty("variables") != null ?
                         new File(isIn.getProperty("variables")) : fileToLoad;
+            if ( !fileToLoad.isFile() && isIn.getProperty("variables")!= null)
+            try {
+                fileToLoad = isIn != null && isIn.getProperty("variableswin") != null ?
+                        new File(isIn.getProperty("variableswin")) : fileToLoad;
+                if (!fileToLoad.isFile() && isIn.getProperty("variableswin")!= null)
+                    {
+                        logger.error("Fichier variableswin absent");
+                        try {
+                            fileToLoad = isIn != null && isIn.getProperty("variableslinux") != null ?
+                                    new File(isIn.getProperty("variableslinux")) : fileToLoad;
+                            if (!fileToLoad.isFile() && isIn.getProperty("variableswin")!= null)
+                                logger.error("Fichier variableslinux absent");
+                        }
+                        catch (   NullPointerException e2) {
+                            logger.error("Fichier variableslinux absent");
+                        }
+                    }
+                }
+                catch (NullPointerException e3) {
+                    logger.error("Fichier variableswin absent");
+
+                }
 
             JSONArray a = (JSONArray) parser.parse(new FileReader(fileToLoad));
             for (Object o : a) {

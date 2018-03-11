@@ -1,31 +1,27 @@
 [
   {
-    "erreur de page":"<b>Cette Page</b> est en erreur à &zalut& éç$
-                      <a href=\"http://news.google.fr\">Google</a>"
+    "erreur de page":"<b>Cette Page</b> est en erreur ou n'existe pas <br><a href=\"http://www.cv-lhermitte.fr\">www.cv-lhermitte.fr</a>"
     ,"city":"Berlin"
-    ,"homeTitreMenu":"ACCUEIL"
-    ,"aproposTitreMenu":"QUI SUIS-JE?"
-    ,"formReglementTitreMenu":"REGLER UNE SEANCE"
-    ,"infoTitreMenu":"INFO PRATIQUE"
-    ,"contactTitreMenu":"CONTACT"
-    ,"aproposTitre":"Qui suis je"
-    ,"apropos1":"Christian Vivien LHERMITTE Psychologue clinicien, psychothérapeute diplômé Paris VII reçoit des adolescents, des adultes et des couples ; Cabinet situé à Paris VII.
+  ,"homeTitreMenu":"ACCUEIL"
+  ,"aproposTitreMenu":"A PROPOS"
+  ,"consultationsTitreMenu":"CONSULTATIONS"
+  ,"formReglementTitreMenu":"REGLER UNE SEANCE"
+  ,"infoTitreMenu":"CONTACT ET ACCES"
+  ,"contactTitreMenu":"CONTACT"
+  ,"aproposTitre":"Qui suis je"
+  ,"apropos1":"Christian Vivien LHERMITTE Psychologue clinicien, psychothérapeute diplômé Paris VII reçoit des adolescents, des adultes et des couples ; Cabinet situé à Paris VII.
     Il pratique également des entretiens par téléphone et des visio-entretiens."
-    ,"apropos2":"Psychologue clinicien d’orientation analytique, l'expérience institutionnelle acquise pendant 25 ans à l'écoute des patients lui permet d'aborder les difficultés les plus variées chez des patients aux organisations psychiques complexes.
+  ,"apropos2":"Psychologue clinicien d’orientation analytique, l'expérience institutionnelle acquise pendant 25 ans à l'écoute des patients lui permet d'aborder les difficultés les plus variées chez des patients aux organisations psychiques complexes.
     <br/>On peut désirer venir consulter pour des symptômes liés à un événement difficile, à un traumatisme ou pour des troubles dont l’origine n’est pas connue afin de donner du sens à ce qui est vécu.
     Il s’agit d' offrir la possibilité de mettre des mots sur sa souffrance, sur ses difficultés relationnelles, professionnelles, affectives, familiales... et de permettre de dénouer les conflits inconscients qui sont à l’origine d'un questionnement."
-    ,"apropos3":"Un premier entretien en face à face est préférable avant de mettre en place des entretiens à distance.
-                  <br/>Le tarif des séances sera convenu à l'occasion de ce premier entretien.
+  ,"apropos3":"Un premier entretien en face à face est préférable avant de mettre en place des entretiens à distance.
+    <br/>Le tarif des séances sera convenu à l'occasion de ce premier entretien.
     Pour les adolescents, la prise en charge comprend des entretiens parents/enfants ponctuels, l’essentiel de la prise en charge se faisant avec l’enfant ou l’adolescent seul.
     M. Lhermitte vous propose de vous contacter dans un premier temps par téléphone afin de faire connaissance et convenir d'un RDV au cabinet."
-    ,"formReglementTitre": "Régler les séances"
-    ,"formReglementIntro": "Comment régler une séance téléphonique ou une visio-conférence par internet: "
-    ,"formReglementListeIntro":"
-    <li>Renseigner les champs Prénom, Nom, Séance et Date.</li>
-    <li>Cliquer sur REGLER.</li>
-    <li>A l'ouverture du site paypal, payer en carte bleue ou en paypal.</li>
-    <li>Pour la carte bleue ne pas ouvrir de compte paypal et renseigner les champs de payement par carte bancaire.</li>"
-    ,"infoTitre":"Informations pratiques"
+  ,"formReglementTitre": "Régler les séances"
+  ,"formReglementIntro": "Comment régler une séance téléphonique ou une visio-conférence par internet: "
+  ,"formReglementListeIntro":"<li>Renseigner les champs Prénom, Nom, Séance et Date.</li><li>Cliquer sur REGLER.</li><li>A l'ouverture du site paypal, payer en carte bleue ou en paypal.</li><li>Pour la carte bleue ne pas ouvrir de compte paypal et renseigner les champs de payement par carte bancaire.</li>"
+  ,"infoTitre":"Informations pratiques"
 
   ,"infoDescription1":"<p></p><p>
     Pour un premier RDV renseigner le formulaire de contact ci-dessous
@@ -34,5 +30,158 @@
     <p>Le praticien reçoit&nbsp;adultes, couples, adolescents et enfants ( sauf nourrissons ).</p>
     "
   ,"formContactTitre":"Formulaire de contact"
+
+
+  ,"page1-bloc0-id":"apropos0"
+  ,"page1-bloc0":"Christian Vivien LHERMITTE"
+  ,"page1-bloc0-1":"<span>APROPOS</span>"
+  ,"page1-bloc2-id":"apropos2"
+  ,"page1-bloc2-titre":"<h6>MON PARCOURS PROFESSIONNEL</h6>"
+  ,"page1-bloc2-contenu":"<ul><li>Unité psychiatrique de la Maison d’Arrêt<br/>de Fleury-Mérogis de 1992 à 2017</li><li>Groupes de parole Collègesdes Hauts-de-Seine de 2000 à 2004</li>
+    <li>Psychologue à l’Hôpital de Jour
+    <br/>rue de Douay à Paris 9 en 1991 et 1992</li></ul><br/><br/>"
+
+  ,"page1-bloc1-id":"apropos1"
+  ,"page1-bloc1-titre":"<h6>FORMATION ET EXPERIENCES</h6>"
+  ,"page1-bloc1-contenu":"
+    <p>Diplômé Paris VII en 1992.<br><br>
+    Psychologue clinicien d’orientation
+    analytique, Psychothérapeute et
+    Psychanaliste, l’expérience
+    institutionnelle acquise pendant 25 ans à
+    l'écoute des patients me permet
+    d'aborder les difficultés les plus variées
+    chez des patients aux organisations
+    psychiques complexes.</p>"
+  ,"page1-bloc3-id":"apropos3"
+  ,"page1-bloc3-titre":"<h6>LANGUES PARLEES COURANTES</h6>"
+  ,"page1-bloc3-contenu":"<ul><li>Français</li><li>Anglais</li><li>Allemand</li></ul>"
+
+  ,"page2-bloc0-id":"consultations0"
+  ,"page2-bloc0":"LES CONSULTATIONS"
+  ,"page2-bloc0-1":"<span> A PROPOS</span>"
+  ,"page2-bloc2-id":"consultations1"
+  ,"page2-bloc2-titre":"<h6>DEROULEMENT DES SEANCES</h6>"
+  ,"page2-bloc2-contenu":"<ul><li>Les séances peuvent avoir lieu <font color=orange>sur place </font>
+    à mon Cabinet situé 65 boulevard des Invalides
+    Paris 7ème</li>
+    <li>Les séances peuvent aussi se faire <font color=orange>à distance</font>
+    par téléphone ou par visio-entretien
+    <p><br/><font color=orange>Un premier entretien en face à face est
+    préférable avant de mettre en place des
+    entretiens à distance.</font></p></li></ul>"
+  ,"page2-bloc1-id":"consultations2"
+  ,"page2-bloc1-titre":"<h6>NATURE DES CONSULTATIONS</h6>"
+  ,"page2-bloc1-contenu":"
+    Je reçois des adultes, couples, adolescents et
+    enfants (sauf nourrissons).<br/>
+    Vous pouvez désirer consulter pour des symptômes
+    liés à un évènement difficile, à l’occasion d’un
+    traumatisme ou pour des troubles dont l’origine
+    n’est pas connue afin de donner du sens à ce qui
+    est vécu.<br/>
+    Il s’agit d' offrir la possibilité de mettre des mots
+    sur sa souffrance, sur ses difficultés relationnelles,
+    professionnelles, affectives, familiales... et
+    de permettre de dénouer les conflits inconscients
+    qui sont à l’origine d'un questionnement.
+    Pour les adolescents, la prise en charge comprend
+    des entretiens parents/enfants ponctuels,
+    l’essentiel de la prise en charge se faisant avec
+    l’enfant ou l’adolescent seul."
+  ,"page2-bloc3-id":"consultations3"
+  ,"page2-bloc3-titre":"<h6>TARIF ET PRISE EN CHARGE</h6>"
+  ,"page2-bloc3-contenu":"Le tarif des séances sera convenu à
+    l'occasion du premier entretien. "
+
+  ,"page3-bloc0-id":"reglerseance0"
+  ,"page3-bloc0":"COMMENT RÉGLER VOTRE SÉANCE"
+  ,"page3-bloc0-1":"<ul><li>Chèque</li><li>Espèces</li><li>Carte bancaire</li><li>Paypal</li></ul>"
+  ,"page3-bloc1-id":"reglerseance1"
+  ,"page3-bloc1-titre":""
+  ,"page3-bloc1-contenu":""
+  ,"page3-bloc2-id":"reglerseance2"
+  ,"page3-bloc2-titre":"<h6>PLUSIEURS MOYENS DE PAIEMENT POUR RÉGLER VOTRE SÉANCE</h6>"
+  ,"page3-bloc2-contenu-old":"
+    <ul><li>par chèque ou en espèces</li>
+    <li>par Carte Bancaire ou Paypal à distance</li>
+    </ul>
+    <h6>COMMENT RÉGLER UNE SÉANCE TÉLÉPHONIQUE OU UNE VISIOCONFÉRENCE
+    PAR INTERNET</h6>
+    <ul><li>Renseigner les champs Prénom, Nom, Séance et Date</li>
+    <li>Cliquer sur le bouton REGLER</li>
+    <li>Cliquer sur OUVRIR UN COMPTE PAYPAL, ne pas l'ouvrir et
+    renseigner les champs de paiement par Carte Bancaire</li></ul>"
+  ,"page3-bloc2-contenu":"
+    
+    <br>par chèque ou en espèces
+    <br>par Carte Bancaire ou Paypal à distance
+    <br><br>
+    <h6>COMMENT RÉGLER UNE SÉANCE TÉLÉPHONIQUE OU UNE VISIOCONFÉRENCE
+    PAR INTERNET</h6>
+    <br>&nbsp;Renseigner les champs Prénom, Nom, Séance et Date
+    <br>&nbsp;Cliquer sur le bouton REGLER
+    <br>&nbsp;Cliquer sur OUVRIR UN COMPTE PAYPAL, ne pas l'ouvrir et
+    renseigner les champs de paiement par Carte Bancaire"
+
+    ,"page3-bloc3-id":"reglerseance3"
+  ,"page3-bloc3-titre":""
+  ,"page3-bloc3-contenu":""
+
+  ,"page4-bloc0-id":"infopratique0"
+  ,"page4-bloc0":"CONTACT ET PLAN D’ACCES"
+  ,"page4-bloc0-1":"<span>Informations pratiques</span>"
+  ,"page4-bloc2-id":"infopratique2"
+  ,"page4-bloc2-titre":""
+  ,"page4-bloc2-contenu":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.566177230962!2d2.314486715830423!3d48.84741310943334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6702dee0c0ecd%3A0x8749c111d28c6237!2s65+Boulevard+des+Invalides%2C+75007+Paris!5e0!3m2!1sfr!2sfr!4v1518373625968\" width=\"450\" height=\"350\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
+  ,"page4-bloc2-contenu-petite-carte":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.566177230962!2d2.314486715830423!3d48.84741310943334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6702dee0c0ecd%3A0x8749c111d28c6237!2s65+Boulevard+des+Invalides%2C+75007+Paris!5e0!3m2!1sfr!2sfr!4v1518373625968\" width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
+  ,"page4-bloc2-contenu-moyenne-carte":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.566177230962!2d2.314486715830423!3d48.84741310943334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6702dee0c0ecd%3A0x8749c111d28c6237!2s65+Boulevard+des+Invalides%2C+75007+Paris!5e0!3m2!1sfr!2sfr!4v1518373625968\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
+  ,"page4-bloc2-contenu-grande-carte":"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.566177230962!2d2.314486715830423!3d48.84741310943334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6702dee0c0ecd%3A0x8749c111d28c6237!2s65+Boulevard+des+Invalides%2C+75007+Paris!5e0!3m2!1sfr!2sfr!4v1518373625968\" width=\"800\" height=\"600\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
+
+  ,"page4-bloc1-id":"infopratique1"
+  ,"page4-bloc1-titre":""
+  ,"page4-bloc1-contenu":"
+    <p><h6>ADRESSE DU CABINET</h6></p>
+    <span>65 Boulevard des Invalides
+    75007 PARIS
+    RDC porte gauche après l’interphone</span>
+    <span>Interphone : Cabinet médical</span>
+    <br/><p><h6>TELEPHONE</h6></p>
+    <span>Secrétariat : 01 44 38 90 90</span><br/>
+    <span>Portable : 06 14 07 52 35</span>
+    <br/><p><h6>E MAIL</h6></p>
+    <span>cvlher@aol.com</span>"
+  ,"page4-bloc3-id":"infopratique3"
+  ,"page4-bloc3-titre":""
+  ,"page4-bloc3-contenu-old":"
+    <h6><span class=\"name\">METRO DUROC</span></h6>
+    <ul class=\"lines\">
+    <li><span class=\"line\"><img style=\"height: 30px;line-height: 30px;\" src=\"resources/img/ratp-metro-10.jpg\" alt=\"Ligne 10\" /> ligne 10</span></li>
+    <li><span class=\"line\"><img style=\"height: 30px;line-height: 30px;\" src=\"resources/img/ratp-metro-13.png\" alt=\"Ligne 13\" /> ligne 13</span></li>
+    </ul>"
+  ,"page4-bloc3-contenu":"
+    <h6><span class=\"name\">METRO DUROC</span></h6>
+    <ul class=\"lines\">
+    <li><span class=\"line\"><img style=\"height: 30px;line-height: 30px;\" src=\"resources/img/ratp-metro-10.jpg\" alt=\"Ligne 10\" /> ligne 10</span></li>
+    <li><span class=\"line\"><img style=\"height: 30px;line-height: 30px;\" src=\"resources/img/ratp-metro-13.png\" alt=\"Ligne 13\" /> ligne 13</span></li>
+    </ul>"
+  ,"page5-bloc0-id":"contact0"
+  ,"page5-bloc0":"POUR DEMANDER UN RENDEZ-VOUS"
+  ,"page5-bloc0-1":"<span>Remplir le formulaire de contact</span>"
+  ,"page5-bloc1-id":"contact1"
+  ,"page5-bloc1-titre":""
+  ,"page5-bloc1-contenu":""
+  ,"page5-bloc2-id":"contact2"
+  ,"page5-bloc2-titre":""
+  ,"page5-bloc2-contenu":"
+    Pour obtenir un rendez-vous au Cabinet ou pour une
+    consultation à distance merci de renseigner le formulaire
+    de contact ci-dessous.
+    <br/>Une réponse vous sera adressée dans les meilleurs délais.
+    <br/>Pour toute demande urgente appelez le <strong>06 14 07 52 35</strong>"
+  ,"page5-bloc3-id":"contact3"
+  ,"page5-bloc3-titre":""
+  ,"page5-bloc3-contenu":""
   }
 ]
+

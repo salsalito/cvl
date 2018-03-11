@@ -74,10 +74,40 @@
           <artifactId>json-simple</artifactId>
           <version>${json.version}</version>
       </dependency>
+
+    <dependency>
+      <groupId>com.paypal.sdk</groupId>
+      <artifactId>rest-api-sdk</artifactId>
+      <version>LATEST</version>
+    </dependency>
+
   </dependencies>
+  <profiles>
+    <profile>
+      <id>dev</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <properties>
+        <log4.path>C:\logs\meuge.log</log4.path>
+      </properties>
+    </profile>
+    <profile>
+      <id>prod</id>
+      <properties>
+        <log4.path>/opt/jetty/logs/web-cvl-prod1.log</log4.path>
+      </properties>
+    </profile>
+  </profiles>
 
   <build>
     <sourceDirectory>src/main/java</sourceDirectory>
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+        <filtering>true</filtering>
+      </resource>
+    </resources>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>

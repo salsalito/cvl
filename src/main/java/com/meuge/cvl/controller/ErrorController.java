@@ -13,8 +13,7 @@ public class ErrorController {
     final static Logger logger = Logger.getLogger(ErrorController.class);
     public static final String DEFAULT_ERROR_VIEW = "errorPage";
     @ExceptionHandler(value = Exception.class)
-    public ModelAndView
-    defaultErrorHandler(HttpServletRequest req, Exception e) throws Exception {
+    public ModelAndView defaultErrorHandler(HttpServletRequest req, Exception e) throws Exception {
         ModelAndView mav = new ModelAndView();
         mav.addObject("url", req.getRequestURL());
         mav.setViewName(DEFAULT_ERROR_VIEW);

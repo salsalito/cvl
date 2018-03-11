@@ -2,8 +2,11 @@
 
 /**
  * Raleway
-================================================================================ */
 
+'glyphicons-halflings-regular' 
+'raleway-extra-light', 'raleway-light', 'raleway-regular', 'raleway-medium', 'raleway-semibold', 'raleway-bold', 'raleway-heavy'
+'merriweather-heavy', 'merriweather-bold', 'merriweather-bold-italic', 'merriweather-heavy-italic', 'merriweather-italic','merriweather-light','merriweather-light-italic','merriweather-regular'
+================================================================================ */
 @font-face {
     font-family: 'glyphicons-halflings-regular';
     src: url('../fonts/glyphicons/glyphicons-halflings-regular.eot');
