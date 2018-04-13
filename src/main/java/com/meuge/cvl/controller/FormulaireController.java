@@ -13,6 +13,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.apache.log4j.Logger;
+import org.springframework.web.context.request.RequestContextHolder;
+import org.springframework.web.context.request.ServletRequestAttributes;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
@@ -80,7 +82,7 @@ public class FormulaireController {
         Properties props = FullTools.getFileProperties("application.properties");
         String format = File.separator + new SimpleDateFormat("yyyy-MM-dd").format(new Date())+"_paiement.csv";
         String meuge = new SimpleDateFormat("dd-MM-yyyy hh:mm:ss").format(new Date()) + "|"+
-                stringToCsv((mct.getFirstname()+separator+mct.getLastname()+separator+mct.getInfoseance()+separator+mct.getId()))+System.getProperty("line.separator");
+                stringToCsv((getIp()+separator+mct.getFirstname()+separator+mct.getLastname()+separator+mct.getInfoseance()+separator+mct.getId()))+System.getProperty("line.separator");
         if (props != null) {
             try {
                 Files.write(Paths.get(props.getProperty("fichierOut") + format), meuge.getBytes(StandardCharsets.UTF_8),
@@ -90,6 +92,15 @@ public class FormulaireController {
             }
         }
     }
+
+    private String getIp() {
+
+        HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.currentRequestAttributes())
+                .getRequest();
+        return request.getRemoteAddr();
+
+    }
+
     /*
      *  Save user object
      */
@@ -117,7 +128,7 @@ public class FormulaireController {
         Properties props = FullTools.getFileProperties("application.properties");
         String format = File.separator + new SimpleDateFormat("yyyy-MM-dd").format(new Date())+"_contact.csv";
         String meuge = new SimpleDateFormat("dd-MM-yyyy hh:mm:ss").format(new Date()) + "|"+
-                stringToCsv((user.getFirstName()+ separator+user.getLastName()+separator+user.getPhone()+separator+user.getMail()+separator+user.getMessage()))+System.getProperty("line.separator");
+                stringToCsv((getIp()+ separator+user.getFirstName()+ separator+user.getLastName()+separator+user.getPhone()+separator+user.getMail()+separator+user.getMessage()))+System.getProperty("line.separator");
         if (props != null) {
             try {
                 Files.write(Paths.get(props.getProperty("fichierOut") + format), meuge.getBytes(StandardCharsets.UTF_8),
